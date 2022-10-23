@@ -3,15 +3,15 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"../../../../usr/share/gems/gems/jekyll-theme-simplex-0.9.8.15/_sass/_variables.scss",
-		"../../../../usr/share/gems/gems/jekyll-theme-simplex-0.9.8.15/_sass/_mixins.scss",
-		"../../../../usr/share/gems/gems/jekyll-theme-simplex-0.9.8.15/_sass/_global.scss",
-		"../../../../usr/share/gems/gems/jekyll-theme-simplex-0.9.8.15/_sass/_header.scss",
-		"../../../../usr/share/gems/gems/jekyll-theme-simplex-0.9.8.15/_sass/_footer.scss",
-		"../../../../usr/share/gems/gems/jekyll-theme-simplex-0.9.8.15/_sass/_feed.scss",
-		"../../../../usr/share/gems/gems/jekyll-theme-simplex-0.9.8.15/_sass/_index.scss",
-		"../../../../usr/share/gems/gems/jekyll-theme-simplex-0.9.8.15/_sass/_post.scss",
-		"../../../../usr/share/gems/gems/jekyll-theme-simplex-0.9.8.15/_sass/_page.scss"
+		"../../.local/share/gem/ruby/gems/jekyll-theme-simplex-0.9.8.15/_sass/_variables.scss",
+		"../../.local/share/gem/ruby/gems/jekyll-theme-simplex-0.9.8.15/_sass/_mixins.scss",
+		"../../.local/share/gem/ruby/gems/jekyll-theme-simplex-0.9.8.15/_sass/_global.scss",
+		"../../.local/share/gem/ruby/gems/jekyll-theme-simplex-0.9.8.15/_sass/_header.scss",
+		"../../.local/share/gem/ruby/gems/jekyll-theme-simplex-0.9.8.15/_sass/_footer.scss",
+		"../../.local/share/gem/ruby/gems/jekyll-theme-simplex-0.9.8.15/_sass/_feed.scss",
+		"../../.local/share/gem/ruby/gems/jekyll-theme-simplex-0.9.8.15/_sass/_index.scss",
+		"../../.local/share/gem/ruby/gems/jekyll-theme-simplex-0.9.8.15/_sass/_post.scss",
+		"../../.local/share/gem/ruby/gems/jekyll-theme-simplex-0.9.8.15/_sass/_page.scss"
 	],
 	"sourcesContent": [
 		"// =============================\r\n// main.scss\r\n// =============================\r\n// Used to include all the partials.\r\n\r\n// Do not change the order of the imports behind this comment.\r\n\r\n// GLOBAL VARIABLES\r\n@import \"_variables.scss\";\r\n\r\n// LIQUID CALCULATIONS\r\n\r\n    $s-menuWidth: calc(3 * (#{$s-menuItemWidth} + #{$s-menuItemPadding} * 2));\r\n\r\n    $s-menuWidth: calc(3 * (#{$s-menuItemWidth} + #{$s-menuItemPadding} * 2));\r\n\r\n    $s-menuWidth: calc(3 * (#{$s-menuItemWidth} + #{$s-menuItemPadding} * 2));\r\n\r\n\r\n// OTHER IMPORTS\r\n@import \"_mixins.scss\";\r\n@import \"_global.scss\";\r\n\r\n// Do not change the order of the imports above this comment.\r\n\r\n@import \"_header.scss\";\r\n@import \"_footer.scss\";\r\n@import \"_feed.scss\";\r\n@import \"_index.scss\";\r\n@import \"_post.scss\";\r\n@import \"_page.scss\";\r\n\r\n",
